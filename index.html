@@ -14,23 +14,23 @@
     </head>
     <!-- Seguro nó filho = body -->
     <body>
+        <span id="topo"></span>
         <div class="container">        
-            <div class="cabecalho">
+            <header class="cabecalho">
                 <h1>Minha Página</h1>
                 <nav>
                     <ul>
-                        <li><a href="./pages/help.html">Help</a></li>
-                        <li><a href="./pages/contact.html">Contact</a></li>
-                        <li><a href="./pages/about.html">About</a></li>
+                        <li class="link"><a href="./pages/help.html">Help</a></li>
+                        <li class="link"><a href="#contact">Contact</a></li>
+                        <li class="link"><a href="./pages/about.html">About</a></li>
                     </ul>
                 </nav>
-            </div>
-
-            <section>
+            </header>
+            <section id="conteudo">
                 <div>
                     <h2>Help</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quis illum quaerat architecto dignissimos ipsa non atque sapiente quas quo iste voluptatum, vel culpa magnam quos nobis id ab tenetur perferendis error explicabo. Aliquam magnam dignissimos vero deserunt adipisci laborum maxime velit debitis ea consequuntur sunt repellendus facere iure nulla culpa at ratione doloremque voluptate, ipsa accusamus, dicta asperiores commodi animi corrupti? Sint consectetur voluptatum sapiente corporis consequuntur quidem dolorem dicta totam a quibusdam cupiditate ratione quo maiores, recusandae modi amet, debitis, assumenda ab ea quasi accusamus iste hic sunt. Facilis illo id eum libero iste reiciendis corporis fugit omnis!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, architecto enim. Ex soluta voluptatum fugit temporibus, architecto, voluptates earum itaque possimus hic nulla nam pariatur id tempora numquam aliquam, est eligendi. Quis eligendi soluta atque deleniti aspernatur? Pariatur ad, veniam dolores, doloremque neque facilis, debitis eius eligendi in harum natus totam maiores veritatis ex! Ratione a porro tempore iure quibusdam delectus libero qui dignissimos debitis reprehenderit mollitia deleniti praesentium sequi odit harum explicabo, eius rerum voluptas. Nam quos eaque eos illo vero, tenetur iure reprehenderit! Quibusdam, debitis? Quaerat autem, in, rerum, vitae provident culpa soluta ex illum obcaecati assumenda delectus.
                     </p>
                     <a href="./pages/help.html">Mais...</a>
                 </div>
@@ -41,7 +41,7 @@
                     </p>
                     <a href="./pages/about.html">Mais...</a>
                 </div>
-                <div>
+                <div id="contact">
                     <h2>Contact</h2>
                     <form>
                         <fieldset>
@@ -58,9 +58,22 @@
                                 <button type="submit">Enviar</button>
                             </div>
                         </fieldset>
+                        <a href="#topo">Voltar ao Topo</a>
                     </form>
                 </div>
             </section>
+            <footer id="rodape">
+                <nav>
+                    <ul>
+                        <li><a href="https://github.com/" target="_blank">Github</a></li>
+                        <li><a href="https://google.com/" target="_blank">Google</a></li>
+                        <li><a href="https://fiap.com.br/" target="_blank">Fiap</a></li>
+                    </ul>
+                </nav>
+                <p>
+                    &copy; Minha Página 2024 - Todos os direitos reservados.
+                </p>
+            </footer>
         </div>
     </body>
 </html>

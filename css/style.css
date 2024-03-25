@@ -1,0 +1,8 @@
+.link{
+    display: inline;
+    margin: 1%;
+}
+
+.link a{
+    text-decoration: none;
+}
