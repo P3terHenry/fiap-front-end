@@ -10,6 +10,11 @@
     line-height: 1.5em;
 }
 
+#conteudo form {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
 h1 h2 {
     font-family: "Times New Roman", serif;
 }
