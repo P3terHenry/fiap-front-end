@@ -6,6 +6,10 @@
     margin: 20px;
 }
 
+#conteudo {
+    line-height: 1.5em;
+}
+
 h1 h2 {
     font-family: "Times New Roman", serif;
 }
