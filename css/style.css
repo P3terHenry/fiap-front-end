@@ -2,15 +2,15 @@
     background-color: blue;
 }
 
-h1, h2 {
+h1 h2 {
     font-family: "Times New Roman", serif;
+}
+
+header nav a {
+    font-weight: bold;
 }
 
 .link{
     display: inline;
     margin: 1%;
-}
-
-.link a{
-    text-decoration: none;
 }
