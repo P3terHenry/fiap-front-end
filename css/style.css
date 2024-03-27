@@ -2,6 +2,10 @@
     background-color: blue;
 }
 
+h1, h2 {
+    font-family: "Times New Roman", serif;
+}
+
 .link{
     display: inline;
     margin: 1%;
