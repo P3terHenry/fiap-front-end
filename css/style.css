@@ -19,6 +19,10 @@ h1 h2 {
     font-family: "Times New Roman", serif;
 }
 
+p {
+    color: green;
+}
+
 header nav a {
     font-weight: bold;
 }
