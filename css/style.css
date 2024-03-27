@@ -32,7 +32,9 @@ header nav a {
     color: white;
 }
 
-
+#rodape {
+    border-top: 2px solid red; 
+}
 
 .link{
     display: inline;
